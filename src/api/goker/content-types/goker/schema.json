@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "gokers",
+  "info": {
+    "singularName": "goker",
+    "pluralName": "gokers",
+    "displayName": "Goker",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "lastname": {
+      "type": "string",
+      "required": true
+    },
+    "email": {
+      "type": "email",
+      "required": false
+    },
+    "birthdate": {
+      "type": "datetime"
+    },
+    "document": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
