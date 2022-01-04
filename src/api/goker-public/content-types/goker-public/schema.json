@@ -1,10 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "gokers",
+  "collectionName": "goker_publics",
   "info": {
-    "singularName": "goker",
-    "pluralName": "gokers",
-    "displayName": "Goker",
+    "singularName": "goker-public",
+    "pluralName": "gokers-public",
+    "displayName": "Goker_Public",
     "description": ""
   },
   "options": {
@@ -21,15 +21,10 @@
       "required": true
     },
     "email": {
-      "type": "email",
-      "required": false
+      "type": "email"
     },
     "birthdate": {
       "type": "datetime"
-    },
-    "document": {
-      "type": "string",
-      "required": true
     },
     "position_company": {
       "type": "string"
@@ -39,10 +34,11 @@
       "multiple": false,
       "required": false,
       "allowedTypes": [
-        "images",
-        "files",
-        "videos"
+        "images"
       ]
+    },
+    "document": {
+      "type": "string"
     }
   }
 }
