@@ -142,11 +142,7 @@ login
 }
 ```
 
-Collection via Postman:
-
-```sh
-https://www.getpostman.com/collections/9a1980a3ec59dbea3713
-```
+Some examples of requests. Collection via Postman(https://www.getpostman.com/collections/9a1980a3ec59dbea3713)_
 
 _For more examples, please refer to the [Documentation](https://gokers.herokuapp.com/documentation)_
 
