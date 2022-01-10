@@ -129,6 +129,7 @@ body:
 ```
 
 or
+
 login
 ```sh
    https://gokers.herokuapp.com/api/auth/local/
@@ -139,6 +140,12 @@ login
     "identifier": "test@gok.digital",
     "password": "12345678aA"
 }
+```
+
+Collection via Postman:
+
+```sh
+https://www.getpostman.com/collections/9a1980a3ec59dbea3713
 ```
 
 _For more examples, please refer to the [Documentation](https://gokers.herokuapp.com/documentation)_
