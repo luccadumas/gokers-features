@@ -11,7 +11,7 @@
   <p align="center">
     Test API for Gokers registrations - REST and GraphQL - Produced with Strapi
     <br />
-    <a href="https://strapi.io/"><strong>Explore documentation »</strong></a>
+    <a href="https://gokers.herokuapp.com/documentation"><strong>Explore documentation »</strong></a>
     <br />
     <br />
     <a href="https://strapi.io/">Explore Strapi documentation</a>
@@ -141,7 +141,7 @@ login
 }
 ```
 
-_For more examples, please refer to the [Documentation](https://gokers.herokuapp.com/documentation/v1.0.1)_
+_For more examples, please refer to the [Documentation](https://gokers.herokuapp.com/documentation)_
 
 
 
