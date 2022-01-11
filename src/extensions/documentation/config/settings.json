@@ -1,9 +1,9 @@
 {
   "openapi": "3.0.0",
   "info": {
-    "version": "1.0.1",
-    "title": "DOCUMENTATION",
-    "description": "",
+    "version": "1.0.0",
+    "title": "GOKERS - GO.K Digital",
+    "description": "This project is part of my Go.K Digital oriented PDI, but it turned out to be much more than just a PDI project. This project is intended to help hundreds of developers who, like me, have struggled to find an easy and free open source API, access the Internet to test their front-end applications, and connect them to a back-end.",
     "termsOfService": "https://github.com/luccadumas/",
     "contact": {
       "name": "TEAM",

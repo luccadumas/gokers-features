@@ -2,19 +2,19 @@
   "openapi": "3.0.0",
   "info": {
     "version": "1.0.0",
-    "title": "DOCUMENTATION",
-    "description": "",
-    "termsOfService": "YOUR_TERMS_OF_SERVICE_URL",
+    "title": "GOKERS - GO.K Digital",
+    "description": "This project is part of my Go.K Digital oriented PDI, but it turned out to be much more than just a PDI project. This project is intended to help hundreds of developers who, like me, have struggled to find an easy and free open source API, access the Internet to test their front-end applications, and connect them to a back-end.",
+    "termsOfService": "https://github.com/luccadumas/",
     "contact": {
       "name": "TEAM",
-      "email": "contact-email@something.io",
-      "url": "mywebsite.io"
+      "email": "lucca.ribeiro@gok.digital",
+      "url": "https://github.com/luccadumas/gokers-features/"
     },
     "license": {
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2022-01-10T18:57:16.606Z"
+    "x-generation-date": "2022-01-11T13:07:21.059Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -22,13 +22,18 @@
     "generateDefaultResponse": true,
     "plugins": [
       "email",
-      "upload"
+      "upload",
+      "users-permissions"
     ]
   },
   "servers": [
     {
-      "url": "http://localhost:1337/api",
+      "url": "http://localhost:1337",
       "description": "Development server"
+    },
+    {
+      "url": "https://gokers.herokuapp.com/",
+      "description": "Production server"
     }
   ],
   "externalDocs": {
